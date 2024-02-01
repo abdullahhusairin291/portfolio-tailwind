@@ -632,7 +632,7 @@ export default function home() {
               <div className="w-full px-4 mb-8">
                 <label
                   form="email"
-                  className="text-base text-primary font-bold"
+                  className="text-base text-primary font-bold after:content-['*'] after:text-red-600 after:ml-0.5"
                 >
                   Email
                 </label>
@@ -648,7 +648,7 @@ export default function home() {
               <div className="w-full px-4 mb-8">
                 <label
                   form="message"
-                  className="text-base text-primary font-bold"
+                  className="text-base text-primary font-bold after:content-['*'] after:text-red-600 after:ml-0.5"
                 >
                   Pesan
                 </label>
