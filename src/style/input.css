@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+@layer components {
+  .grid-card {
+    @apply bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden relative hover:scale-95 transition-all duration-500;
+  }
+
+  .grid-card-img {
+    @apply w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500;
+  }
+}
